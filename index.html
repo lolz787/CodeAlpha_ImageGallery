@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Gallery | CodeAlpha Task 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Visual Journey</h1>
+        <p>A Curated Collection of Moments</p>
+    </header>
+
+    <main class="gallery-container">
+        <div class="grid">
+            <div class="gallery-card"><img src="https://picsum.photos/id/1015/800/600" alt="River" class="gallery-item"></div>
+            <div class="gallery-card"><img src="https://picsum.photos/id/1016/800/600" alt="Mountain" class="gallery-item"></div>
+            <div class="gallery-card"><img src="https://picsum.photos/id/1018/800/600" alt="Sky" class="gallery-item"></div>
+            <div class="gallery-card"><img src="https://picsum.photos/id/1019/800/600" alt="Forest" class="gallery-item"></div>
+            <div class="gallery-card"><img src="https://picsum.photos/id/1021/800/600" alt="Coast" class="gallery-item"></div>
+            <div class="gallery-card"><img src="https://picsum.photos/id/1022/800/600" alt="Aurora" class="gallery-item"></div>
+            <div class="gallery-card"><img src="https://picsum.photos/id/1035/800/600" alt="Waterfall" class="gallery-item"></div>
+            <div class="gallery-card"><img src="https://picsum.photos/id/1039/800/600" alt="Night" class="gallery-item"></div>
+        </div>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <div class="nav-btn prev">&#10094;</div>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="nav-btn next">&#10095;</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
